@@ -11,7 +11,7 @@ import javax.annotation.PostConstruct;
 public class MyappApplication {
 
     @Autowired
-    Hello hello; //这是注释
+    Hello hello; //这是注释.
 
     @PostConstruct
     public void init() {
